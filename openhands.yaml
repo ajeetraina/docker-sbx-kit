@@ -2,7 +2,9 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/docker/sandbox-kit-spec/main/schema/kit.schema.json
 #
 # OpenHands Agent Canvas as a Kit v3 workload — the same declarations as the v2
-# ../../spec.yaml, expressed as typed capabilities.
+# ./spec.yaml (kept: this repo supports both v2 and v3), expressed as typed
+# capabilities. The v3 files sit at the kit root, matching the flat layout every
+# kit in docker/sandbox-kit-spec uses.
 #
 # MIGRATION NOTE (v2 → v3): the v2 kit was `kind: sandbox` → `kind: workload`
 # (never write "sandbox"). It is a self-contained agent sandbox: it owns its
